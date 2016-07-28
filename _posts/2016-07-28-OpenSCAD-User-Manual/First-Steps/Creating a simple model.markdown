@@ -10,7 +10,7 @@ categories: OpenSCAD
 cube([2,3,4]);
 {% endhighlight %}
 
-!(image)[//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/OpenSCAD_Simple_Cuboid.png/220px-OpenSCAD_Simple_Cuboid.png]
+![image](//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/OpenSCAD_Simple_Cuboid.png/220px-OpenSCAD_Simple_Cuboid.png)
 
 **编译和渲染模型**
 
