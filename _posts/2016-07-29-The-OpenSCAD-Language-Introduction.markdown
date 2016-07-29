@@ -10,19 +10,12 @@ OpenSCAD是对2D/3D和实体模型编程的一门函数式编程语言，可在�
 
 {% highlight ruby %}
  object();
- 
  variable = value;
- 
  operator()   action();
- 
  operator() { action();    action(); }
- 
  operator()   operator() { action(); action(); }
- 
  operator() { operator()   action();
- 
               operator() { action(); action(); } }
-              
 {% endhighlight %}
 
 
