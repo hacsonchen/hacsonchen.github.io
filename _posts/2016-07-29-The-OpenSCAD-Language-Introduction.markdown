@@ -18,5 +18,9 @@ OpenSCAD是对2D/3D和实体模型编程的一门函数式编程语言，可在�
               operator() { action(); action(); } }
 {% endhighlight %}
 
+**对象**
+#Objects are the building blocks for models, created by 2D and 3D primitives.
+
+组建成模型的2D/3D基本元素的模块称之为对象。
 
 [opscad-lang]: https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/The_OpenSCAD_Language
