@@ -8,7 +8,7 @@ OpenSCAD是对2D/3D和实体模型编程的一门函数式编程语言，可在�
 
 在OpenSCAD中，一段脚本通常用于创建2D/3D模型。这脚本是声明action自由格式的集合。
 
-{% highlight cplusplus %}
+{% highlight csharp %}
  object();
  variable = value;
  operator()   action();
