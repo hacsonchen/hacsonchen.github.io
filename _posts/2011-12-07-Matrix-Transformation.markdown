@@ -2,7 +2,7 @@
 layout: post
 title:  "矩阵初等变换"
 date:   2011-12-07 14:32:39 +0800
-categories: 线性代数
+categories: linear-algebra
 ---
 
 求解线性方程组的过程实际上就是对方程组进行初等变换的过程，对增广矩阵或系数矩阵的初等变换有以下三种类型：
