@@ -6,7 +6,7 @@ categories: STC
 ---
 STC单片机说明
 {% highlight csharp %}
-                  ┌────────────┐
+                  ┌──────┐
 	ADC0/P1.0 ┤1         40├ VCC
 	ADC1/P1.1 ┤2         39├ P0.0
 	ADC2/P1.2 ┤3    S    38├ P0.1
@@ -25,6 +25,6 @@ STC单片机说明
 	  WR/P3.6 ┤16        25├ P2.4
 	  RD/P3.7 ┤17        24├ P2.3
              GND  ┤20        21├ P2.0
-                  └────────────┘
+                  └──────┘
 {% endhighlight %}
 
