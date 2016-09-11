@@ -4,7 +4,7 @@ title:  "STC12C5A32S2引脚说明"
 date:   2016-09-11 14:32:39 +0800
 categories: STC
 ---
-
+STC单片机说明
                   ┌────────────┐
 	ADC0/P1.0 ┤1         40├ VCC
 	ADC1/P1.1 ┤2         39├ P0.0
