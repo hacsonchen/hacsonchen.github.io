@@ -21,4 +21,4 @@ github_username:  hacsonchen
 # Build settings
 markdown: kramdown
 
-permalink: /:categories/:title
+permalink: /:categories/:title.html
