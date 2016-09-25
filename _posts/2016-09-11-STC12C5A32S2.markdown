@@ -2,9 +2,12 @@
 layout: post
 title:  "STC12C5A32S2引脚说明"
 date:   2016-09-11 14:32:39 +0800
-categories: STC
+seo_keyword: STC12C5A32S2引脚
+categories: STC-MCU
 ---
-STC单片机说明
+
+每次连接电路都要找数据手册太麻烦了，我只要知道IO口是什么就可以了。为此给STC12C5A32S2芯片的引脚做个备注。
+
 {% highlight csharp %}
                   ┌──────┐
 	ADC0/P1.0 ┤1         40├ VCC
