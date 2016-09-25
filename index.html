@@ -12,7 +12,7 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <p>{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}</p>
+        <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</p>
       </li>
     {% endfor %}
   </ul>
