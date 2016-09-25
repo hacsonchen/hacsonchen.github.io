@@ -12,7 +12,7 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         
-        <span class="post-meta">{{ post.date | date: "(%Y-%m-%d)" }} {{ post.categories }}</span>
+        <span class="post-meta">{{ post.categories }}</span>
         
         <p>{{ post.content | strip_html | strip_newlines | truncate: 160 }}</p>
       </li>
