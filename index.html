@@ -3,9 +3,7 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">智能笔记本</h1>
-
+  
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -14,10 +12,11 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <p>{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}</p>
       </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">喜欢就订阅我吧-> <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
