@@ -7,9 +7,9 @@
 
 # Site setting
 title: cos2x
-seo_title: STC(8051)单片机笔记 - cos2x
-seo_description: 我白天是个STC程序员,晚上就是个有抱负的STC单片机淘宝掌柜.这是我的STC-MCU试验田.我住在天朝的羊城,有条叫做杰克的鱼.
-seo_keyword: STC,STCMCU,STC单片机
+seo_title: CPU自制(DIY)实验室 - cos2x
+seo_description: 探索CPU工作原理,自己动手定制CPU,让你更加深入了解中央处理器是如何工作的.
+seo_keyword: CPU,处理器,CPU原理
 email: qs.c@qq.com
 description: > # this means to ignore newlines until "baseurl:"
   我白天是个邮递员，晚上就是个有抱负的演员。这是我的博客。我住在天朝的帝都，有条叫做杰克的狗。
