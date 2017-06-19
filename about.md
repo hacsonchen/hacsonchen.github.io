@@ -1,9 +1,10 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-我白天是个邮递员，晚上就是个有抱负的演员。这是我的博客。我住在天朝的帝都，有条叫做杰克的狗。
+Hello.
 
-本应该是介绍页面。
+This will be your About page. Anything about you, it should be written here in details. You may describe your bio here like who you are, what you do, your intention, social site hyperlinks and how people can contact you, etc.
+
+**Less is more..**

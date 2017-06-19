@@ -2,23 +2,30 @@
 layout: default
 ---
 
-<div class="home">
-  
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        
-        <span class="post-meta">{{ post.categories }}</span>
-        
-        <p>{{ post.content | strip_html | strip_newlines | truncate: 160 }}</p>
-      </li>
-    {% endfor %}
-  </ul>
+<section>
 
-  <p class="rss-subscribe">喜欢就订阅我吧 <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	{% for post in site.posts %}
+		{% unless post.next %}
+			<h3>{{ post.date | date: '%Y' }} &#172;</h3>
+		{% else %}
+			{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+			{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+			{% if year != nyear %}
+				<h3>{{ post.date | date: '%Y' }} &#172;</h3>
+			{% endif %}
+		{% endunless %}
 
-</div>
+		<ul>
+			<li>
+				<div class="post-date">
+					<span>{{ post.date | date: "%b %d" }}</span>
+				</div>
+				<div class="title">
+					<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				</div>
+			</li>
+		</ul>
+
+	{% endfor %}
+
+</section>
