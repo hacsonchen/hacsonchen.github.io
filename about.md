@@ -1,10 +1,13 @@
 ---
 layout: page
-title: About
+title: 我是谁？
 ---
 
 Hello.
 
-This blog will be shared something in which I am insteresting, such as C, C#, Music, 3D printer, STM32, Arduino. If you have any question, you can contact to me by sending email at qs.c(At)qq.com
+我白天是一名程序员，晚上是一位有抱负的生活家。
+
+有时候我会去玩滑板、跑步、游泳，爱看电影体验别人精彩的人生，哎约爱好有点多都有点数不过来了呢...
+
 
 **Less is more..**
